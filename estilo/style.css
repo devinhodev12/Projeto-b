@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
 
- @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   background-color:#FFA07A ;
   font-family: var(--font-destaque);
   
@@ -88,7 +88,11 @@ a{
 #custom2::before{
   content:'\1F4F7''\00A0';
 }
-
+div.block{
+  background-image: url('imagens/burger.jpg');
+  height: 200px;
+  border: 2px solid black;
+}
 
 
 
