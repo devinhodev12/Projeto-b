@@ -100,17 +100,25 @@ div.block{
  
 }
 div.centro{
+   background-color: bisque;
    margin: auto;
    text-align: center;
    margin-top: 10px;
    border: 3px solid black;
    border-radius: 10px;
    padding: 10px;
-   height: 300px;
-   width: 300;
+   height: auto;
+   width: auto;
+   position: relative;
 }
-iframe{
+div.centro>iframe{
   border-radius: 10px;
+  position: absolute;
+  top: 5% ;
+  left: 5%;
+  width: 90% ;
+  height:  90%;
+}
 }
 
 h3{
