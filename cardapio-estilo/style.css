@@ -11,6 +11,8 @@ div.geral{
    background-color:#F7DC6F;
    margin-bottom: 10px;
    padding-bottom: 10px;
+   
+   
 }
 
 
@@ -57,5 +59,17 @@ div:hover>#v2{
 div:hover>#v3{
     display: block;
 }
-
-
+nav{
+    text-align: center;
+    margin: 20px;
+    
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    background-color:#F7DC6F;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
